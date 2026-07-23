@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Birthday Surprise ❤️</title>
+
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="memory.css">
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+<!-- Stars -->
+<div class="stars"></div>
+
+<!-- Intro -->
+<div id="intro">
+
+<h1 id="typewriter"></h1>
+
+<button id="continueBtn">
+✨ Tap To Continue
+</button>
+
+</div>
+
+<audio id="bgMusic" loop>
+<source src="music.mp3" type="audio/mpeg">
+</audio>
+<!-- Password Page -->
+<div id="loginPage" class="page" style="display:none;">
+
+    <div class="loginBox">
+
+        <h1>🔐</h1>
+
+        <h2>Enter The Secret Password</h2>
+
+        <p>Only the birthday girl knows it ❤️</p>
+
+        <input id="password" type="password" placeholder="Password">
+
+        <button id="unlockBtn">
+            Unlock ❤️
+        </button>
+
+        <p id="error"></p>
+
+    </div>
+
+</div>
+
+
+
+<!-- ================= WELCOME PAGE ================= -->
+
+<div id="welcomePage" class="page" style="display:none;">
+
+    <div class="petals"></div>
+    <div class="hearts"></div>
+
+    <h1 class="welcomeTitle">
+        Happy Birthday
+        <span>Mazhi Bayko❤️</span>
+    </h1>
+
+    <p id="welcomeMessage"></p>
+
+    <button id="journeyBtn">
+        🎁 Open Your First Surprise
+    </button>
+
+</div>
+
+<!-- =============================================== -->
+<!-- ================= GIFT PAGE ================= -->
+
+<div id="giftPage" class="page" style="display:none;">
+
+    <h1 class="giftTitle">A Special Gift For You ❤️</h1>
+
+    <div id="giftBox" class="giftBox">
+        🎁
+    </div>
+
+    <p id="giftMessage"></p>
+
+    <button id="cakeBtn" style="display:none;">
+        🎂 Let's Cut The Cake
+    </button>
+
+</div>
+
+<!-- ============================================ -->
+<!-- ================= CAKE PAGE ================= -->
+
+<div id="cakePage" class="page" style="display:none;">
+
+    <h1 class="cakeTitle">🎂 Make A Wish ❤️</h1>
+
+    <div id="cake">🎂</div>
+
+    <button id="lightBtn">🕯️ Light Candle</button>
+
+    <p id="cakeMessage"></p>
+
+    <button id="cutCakeBtn" style="display:none;">
+        🎂 Cut The Cake
+    </button>
+
+</div>
+
+<!-- ============================================ -->
+<!-- ================= MEMORY SPHERE ================= -->
+
+<div id="memoryPage" class="page" style="display:none;">
+
+    <h1 class="memoryTitle">❤️ Our Beautiful Memories ❤️</h1>
+
+    <div id="memoryContainer">
+    <canvas id="memoryCanvas"></canvas>
+</div>
+
+    <div id="photoNote">
+        Tap any photo ❤️
+    </div>
+    <div id="photoPopup">
+
+    <div id="popupContent">
+
+        <span id="closePopup">&times;</span>
+
+        <img id="popupImage" src="">
+
+        <p id="popupNote"></p>
+<button id="readLetterBtn" style="display:none;">
+💌 Read My Letter ❤️
+</button>
+    </div>
+</div>
+</div>
+<!-- ================= LOVE LETTER ================= -->
+
+<div id="letterPage" class="page" style="display:none;">
+
+    <div class="letterBox">
+
+        <h1>💌 Happiest Birthday Vidhi (Bayko) ❤️</h1>
+
+        <div id="letterText">Testlettr❤️</div>
+
+        <button id="finalBtn">
+            ✨ Final Surprise ✨
+        </button>
+
+    </div>
+
+</div>
+<!-- ================= FINAL PAGE ================= -->
+
+<div id="finalPage" class="page" style="display:none;">
+
+    <h1 id="finalTitle">
+        🎉 HAPPY BIRTHDAY 🎉<br>BAYKO❤️
+    </h1>
+
+    <p id="finalMessage">
+        I Love You Forever ❤️<br>
+        Thank You For Coming Into My Life 🌹
+    </p>
+    <canvas id="fireworks"></canvas>
+    <div id="floatingHearts"></div>
+    <button id="replayBtn">
+    🔄 Replay Surprise
+</button>
+</div>
+
+<!-- =============================================== -->
+<script src="https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.min.js"></script>
+<script src="script.js"></script>
+<script src="memory.js"></script>
+</body>
+</html>
