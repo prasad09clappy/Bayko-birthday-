@@ -1,16 +1,16 @@
 const photos = [
-  { img: "images/photo1.jpg", note: "Our first beautiful memory ❤️" },
-  { img: "images/photo2.jpg", note: "Every moment with you is special 🌸" },
-  { img: "images/photo3.jpg", note: "Your smile makes everything brighter ✨" },
-  { img: "images/photo4.jpg", note: "A memory I'll always treasure 💕" },
-  { img: "images/photo5.jpg", note: "Together, every day feels magical 🌹" },
-  { img: "images/photo6.jpg", note: "Thank you for every beautiful moment ❤️" },
-  { img: "images/photo7.jpg", note: "Life is happier with you 😊" },
-  { img: "images/photo8.jpg", note: "One more unforgettable memory 📸" },
-  { img: "images/photo9.jpg", note: "Forever grateful for your friendship 💖" },
-  { img: "images/photo10.jpg", note: "Every picture tells our story 💞" },
-  { img: "images/photo11.jpg", note: "You are my favorite memory 🌍" },
-  { img: "images/photo12.jpg", note: "Happy Birthday Madam Ji ❤️🎂" }
+  { img: "photo1.jpg", note: "Our first beautiful memory ❤️" },
+  { img: "photo2.jpg", note: "Every moment with you is special 🌸" },
+  { img: "photo3.jpg", note: "Your smile makes everything brighter ✨" },
+  { img: "photo4.jpg", note: "A memory I'll always treasure 💕" },
+  { img: "photo5.jpg", note: "Together, every day feels magical 🌹" },
+  { img: "photo6.jpg", note: "Thank you for every beautiful moment ❤️" },
+  { img: "photo7.jpg", note: "Life is happier with you 😊" },
+  { img: "photo8.jpg", note: "One more unforgettable memory 📸" },
+  { img: "photo9.jpg", note: "Forever grateful for your friendship 💖" },
+  { img: "photo10.jpg", note: "Every picture tells our story 💞" },
+  { img: "photo11.jpg", note: "You are my favorite memory 🌍" },
+  { img: "photo12.jpg", note: "Happy Birthday Madam Ji ❤️🎂" }
 ];
 
 let scene, camera, renderer;
